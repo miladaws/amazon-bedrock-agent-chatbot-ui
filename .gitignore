@@ -1,40 +1,29 @@
-# Specifies intentionally untracked files to ignore when using Git
-# http://git-scm.com/docs/gitignore
+# Node dependencies
+node_modules/
 
-*~
-*.sw[mnpcod]
-.tmp
-*.tmp
-*.tmp.*
-UserInterfaceState.xcuserstate
-$RECYCLE.BIN/
+# Ionic build output
+www/
+platforms/
+plugins/
 
-*.log
-log.txt
+# Angular build output
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
 
+# Environment configurations
+/environments/
 
-/.sourcemaps
-/.versions
-/coverage
+# TypeScript compiled files
+**/*.js
+**/*.js.map
 
-# Ionic
-/.ionic
-/www
-/platforms
-/plugins
+# System files
+.DS_Store
+Thumbs.db
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# IDEs and editors
+# IDE and Editor folders
 .idea/
 .project
 .classpath
@@ -43,26 +32,44 @@ yarn-error.log
 .settings/
 *.sublime-project
 *.sublime-workspace
+.vscode/
+.history/
 
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Miscellaneous
-/.angular
-/.angular/cache
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.tmp.*
+*~
+.$*
+
+# Sass cache
 .sass-cache/
+
+# Misc
 /connect.lock
-/coverage
+/coverage/
 /libpeerconnection.log
 testem.log
-/typings
+/typings/
 
-# System files
-.DS_Store
-Thumbs.db
+# e2e
+/e2e/
+
+# Angular files
+.angular
+.angular/cache

@@ -1,9 +1,0 @@
-node_modules/
-platforms/
-plugins/
-www/
-.sourcemaps/
-.env
-*.code-workspace
-.DS_Store
-src/environments/*
