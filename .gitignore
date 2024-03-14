@@ -13,8 +13,8 @@ plugins/
 /bazel-out/
 
 # Environment configurations
-/environments/
-
+/environments//environment.ts
+/environments//environment.prod.ts
 # TypeScript compiled files
 **/*.js
 **/*.js.map
