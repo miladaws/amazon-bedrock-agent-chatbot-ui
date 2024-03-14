@@ -10,7 +10,7 @@ This is an chatbot UI designed by Ionic to demonstrate the integration with Amaz
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/ionic-aws-project.git
+   git clone https://github.com/miladaws/amazon-bedrock-agent-chatbot-ui
 
 ## Installation
 
